@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f36f147-eb5d-4a1d-9594-b1fe6514056b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/json_path_evaluator/JsonPathEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/scrapper/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/stockpredictor/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xpath_new/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XPathEvaluatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/json_path_evaluator/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json_path_evaluator/JsonPathEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json_path_evaluator/JsonPathEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json_path_evaluator/JsonPathEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json_path_evaluator/JsonPathEvaluator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +39,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App$Stock.executor": "Run",
+    "Application.App.executor": "Run",
     "Application.JsonPathEvaluator.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.xpath_new.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
@@ -45,7 +51,10 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -53,7 +62,20 @@
       <recent name="C:\Users\Rishabh\pro_jects\java_projects\src\main\java\xpath_evaluator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App$Stock">
+    <configuration name="App$Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.stockpredictor.App$Stock" />
+      <module name="java_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stockpredictor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xpath_evaluator.Main" />
       <module name="java_projects" />
@@ -63,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App$Stock" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -77,6 +100,9 @@
       <updated>1731234811824</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

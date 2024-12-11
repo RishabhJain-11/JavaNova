@@ -1,8 +1,11 @@
 package json_path_evaluator;
 
 import com.jayway.jsonpath.JsonPath;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
+import java.io.StringReader;
+import java.nio.file.Files;
 import java.util.Scanner;
 
 import static java.nio.file.Files.readAllBytes;
